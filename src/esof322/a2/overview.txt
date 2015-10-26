@@ -1,0 +1,216 @@
+Names: Tim Wegher, Nevin Leh, Aaron Newhall
+
+Changes made: We modified AdventureGameModelFacade.java so that it made the correct calls that were origionally made in AdventureGame.java
+	This accomplishes the task of creating and starting a new instance of a game with a gui interface as well as leaving the AdventureGame.java fully functional 
+	so that the text version of the game can still be run or the gui. We modified AdventureGameView.java to include a text field in the gui so the player can 
+	choose which item to grab or drop from the room or inventory. We have also added the grab and drop methods that are required for the gui to function correctly 
+	with the game.
+
+Interesting class relationships: The class AdventureGameModelFacade.java has relationships with player, adventure, and room because it creates new instances of them 
+	when the game is run.
+
+Design approaches: We started by planning the design so that most of the existing code would be left the same and the text version of the game would still work.
+	Another design approach was to use the existing AdventureGame.java as a resource when writing the code for AdventureGameModelFacade.java.
+
+Things that gave us trouble: Not looking at all of the code that is executed in each function so we did not know everything that was being done when it was run. For 
+	example when picking up or dropping an item, the items are automatically added and removed from the room so we had duplicates at first and then realized what was happening.
+
+Special instructions for running program: Import an external jar (BreezySwing) into the project file path. Run the program by selecting AdventureGameModelFacade.java 
+	from the run menu.
+	When playing the game use the text field to enter the number of the item that you wish to pick up or drop and then click the button of the action you 
+	want to do (pick up or drop).
+
+Time spent by each team member: Tim Wegher 3 hours, Nevin Leh 5 hours, Aaron Newhall 5 hours
+
+Commit log treanscript: commit 14f8d2af63e8c804a0e95f3260488fc50c91b979
+Author: Nevin <nevinleh@gmail.com>
+Date:   Sun Sep 27 21:29:48 2015 -0600
+
+    Now its in the right folder structure
+
+commit 3268fb0d3329df62e39c31b659381472cc563f97
+Author: Nevin <nevinleh@gmail.com>
+Date:   Sun Sep 27 21:13:41 2015 -0600
+
+    Fixed folder structure and it runs perfectly.
+
+commit f2a2546d75931e16d2548f17cdbcf6035593be94
+Author: unknown <aaron.newhall@msu.montana.edu>
+Date:   Sun Sep 27 18:31:56 2015 -0600
+
+    Direction buttons are working as well as room descriptions.
+
+commit 5ac7c9796abdd42cdcec2318f6f7cd8d837ed86b
+Author: unknown <aaron.newhall@msu.montana.edu>
+Date:   Sun Sep 27 18:24:54 2015 -0600
+
+    buttons for directions are working as well as room descriptions.
+
+commit c631854c7c3ad2ae97b65d535e8135ce71e81ca8
+Author: unknown <aaron.newhall@msu.montana.edu>
+Date:   Sun Sep 27 18:15:47 2015 -0600
+
+    All the directional buttons are working and printing room descriptions.#
+
+commit 607a13449ff73b278a0a0e5f199b1cc5a79e7300
+Author: unknown <aaron.newhall@msu.montana.edu>
+Date:   Mon Sep 14 16:02:39 2015 -0600
+
+    added text document overview.txt
+
+commit 424a9d08e56e630e79ab29b2ef7d669efc1ec927
+Author: Nevin <nevinleh@gmail.com>
+Date:   Sun Sep 13 18:38:01 2015 -0600
+
+    Everthign should work. Open project from new java project(change path). Also add junit to java source path.
+
+commit 23f1f0fdeb6632e31bf197230b4e5404869804b5
+Author: peikleh <nevinleh@gmail.com>
+Date:   Fri Sep 11 10:09:49 2015 -0600
+
+    Fixed folder structure
+
+commit 58bbaa45d5f8f00319e8064b3255bdada97285cd
+Author: Nevin <nevinleh@gmail.com>
+Date:   Fri Sep 11 09:40:22 2015 -0600
+
+    Added Files in the correct structure. Nevin Leh
+
+commit b9a971cf5f22c0477d7387f1624df5f14aca3777
+Author: ChenglinFan <chenglin.fan@msu.montana.edu>
+Date:   Thu Aug 27 15:19:26 2015 -0600
+
+    Initial commit
+commit 14f8d2af63e8c804a0e95f3260488fc50c91b979
+Author: Nevin <nevinleh@gmail.com>
+Date:   Sun Sep 27 21:29:48 2015 -0600
+
+    Now its in the right folder structure
+
+commit 3268fb0d3329df62e39c31b659381472cc563f97
+Author: Nevin <nevinleh@gmail.com>
+Date:   Sun Sep 27 21:13:41 2015 -0600
+
+    Fixed folder structure and it runs perfectly.
+
+commit f2a2546d75931e16d2548f17cdbcf6035593be94
+Author: unknown <aaron.newhall@msu.montana.edu>
+Date:   Sun Sep 27 18:31:56 2015 -0600
+
+    Direction buttons are working as well as room descriptions.
+
+commit 5ac7c9796abdd42cdcec2318f6f7cd8d837ed86b
+Author: unknown <aaron.newhall@msu.montana.edu>
+Date:   Sun Sep 27 18:24:54 2015 -0600
+
+    buttons for directions are working as well as room descriptions.
+
+commit c631854c7c3ad2ae97b65d535e8135ce71e81ca8
+Author: unknown <aaron.newhall@msu.montana.edu>
+Date:   Sun Sep 27 18:15:47 2015 -0600
+
+    All the directional buttons are working and printing room descriptions.#
+
+commit 607a13449ff73b278a0a0e5f199b1cc5a79e7300
+Author: unknown <aaron.newhall@msu.montana.edu>
+Date:   Mon Sep 14 16:02:39 2015 -0600
+
+    added text document overview.txt
+
+commit 424a9d08e56e630e79ab29b2ef7d669efc1ec927
+Author: Nevin <nevinleh@gmail.com>
+Date:   Sun Sep 13 18:38:01 2015 -0600
+
+    Everthign should work. Open project from new java project(change path). Also add junit to java source path.
+
+commit 23f1f0fdeb6632e31bf197230b4e5404869804b5
+Author: peikleh <nevinleh@gmail.com>
+Date:   Fri Sep 11 10:09:49 2015 -0600
+
+    Fixed folder structure
+
+commit 58bbaa45d5f8f00319e8064b3255bdada97285cd
+Author: Nevin <nevinleh@gmail.com>
+Date:   Fri Sep 11 09:40:22 2015 -0600
+
+    Added Files in the correct structure. Nevin Leh
+
+commit b9a971cf5f22c0477d7387f1624df5f14aca3777
+Author: ChenglinFan <chenglin.fan@msu.montana.edu>
+Date:   Thu Aug 27 15:19:26 2015 -0600
+
+    Initial commit
+commit 2b0cce59896afe669160c416a23d6d7cf14abb0c
+Author: Nevin <nevinleh@gmail.com>
+Date:   Mon Sep 28 17:22:36 2015 -0600
+
+    Added uml diagram
+
+commit fd66da5addd5cdab6edbf2b550e862026fb12a39
+Author: Nevin <nevinleh@gmail.com>
+Date:   Mon Sep 28 16:50:34 2015 -0600
+
+    Added comments for everything
+
+commit 14f8d2af63e8c804a0e95f3260488fc50c91b979
+Author: Nevin <nevinleh@gmail.com>
+Date:   Sun Sep 27 21:29:48 2015 -0600
+
+    Now its in the right folder structure
+
+commit 3268fb0d3329df62e39c31b659381472cc563f97
+Author: Nevin <nevinleh@gmail.com>
+Date:   Sun Sep 27 21:13:41 2015 -0600
+
+    Fixed folder structure and it runs perfectly.
+
+commit f2a2546d75931e16d2548f17cdbcf6035593be94
+Author: unknown <aaron.newhall@msu.montana.edu>
+Date:   Sun Sep 27 18:31:56 2015 -0600
+
+    Direction buttons are working as well as room descriptions.
+
+commit 5ac7c9796abdd42cdcec2318f6f7cd8d837ed86b
+Author: unknown <aaron.newhall@msu.montana.edu>
+Date:   Sun Sep 27 18:24:54 2015 -0600
+
+    buttons for directions are working as well as room descriptions.
+
+commit c631854c7c3ad2ae97b65d535e8135ce71e81ca8
+Author: unknown <aaron.newhall@msu.montana.edu>
+Date:   Sun Sep 27 18:15:47 2015 -0600
+
+    All the directional buttons are working and printing room descriptions.#
+
+commit 607a13449ff73b278a0a0e5f199b1cc5a79e7300
+Author: unknown <aaron.newhall@msu.montana.edu>
+Date:   Mon Sep 14 16:02:39 2015 -0600
+
+    added text document overview.txt
+
+commit 424a9d08e56e630e79ab29b2ef7d669efc1ec927
+Author: Nevin <nevinleh@gmail.com>
+Date:   Sun Sep 13 18:38:01 2015 -0600
+
+    Everthign should work. Open project from new java project(change path). Also add junit to java source path.
+
+commit 23f1f0fdeb6632e31bf197230b4e5404869804b5
+Author: peikleh <nevinleh@gmail.com>
+Date:   Fri Sep 11 10:09:49 2015 -0600
+
+    Fixed folder structure
+
+commit 58bbaa45d5f8f00319e8064b3255bdada97285cd
+Author: Nevin <nevinleh@gmail.com>
+Date:   Fri Sep 11 09:40:22 2015 -0600
+
+    Added Files in the correct structure. Nevin Leh
+
+commit b9a971cf5f22c0477d7387f1624df5f14aca3777
+Author: ChenglinFan <chenglin.fan@msu.montana.edu>
+Date:   Thu Aug 27 15:19:26 2015 -0600
+
+    Initial commit
+
+
+Everyone in the group worked on the project however the changes were uploaded to git from only part of the groups computers.
