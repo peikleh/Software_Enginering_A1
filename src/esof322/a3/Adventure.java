@@ -2,7 +2,7 @@
  * 
  */
 
-package esof322.a2;
+package esof322.a3;
 
 
 /**  Adventure Game  Program Code

@@ -2,7 +2,7 @@
 /*Modified for esoff322.a2 by Nevin Leh, Aaron Newhall and  Tim Wegher
  * 
  */
-package esof322.a2;
+package esof322.a3;
 
 
 /**  Adventure Game  Program Code

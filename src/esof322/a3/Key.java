@@ -1,4 +1,4 @@
-package esof322.a2;
+package esof322.a3;
 
 
 /**  Adventure Game  Program Code
@@ -9,12 +9,11 @@ package esof322.a2;
 
      The main routine is AdventureGame.main
 				    
+**/
 
-				    **/
 
-// interface CaveSite
+// class Key.
 
-public interface CaveSite{
-  void enter(Player p);
+public class Key extends Item {
 }
 

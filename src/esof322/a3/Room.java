@@ -1,4 +1,4 @@
-package esof322.a2;
+package esof322.a3;
 
 /**  Adventure Game  Program Code
      Copyright (c) 1999 James M. Bieman

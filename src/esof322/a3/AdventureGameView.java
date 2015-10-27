@@ -3,7 +3,7 @@
  */
 
 
-package esof322.a2;
+package esof322.a3;
 
 /*
  * Description of changes: In this class we added a Jlabel and a Jlabel Text area to get what index of item to pickup

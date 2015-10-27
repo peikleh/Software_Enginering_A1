@@ -2,7 +2,7 @@
  * 
  */
 
-package esof322.a2;
+package esof322.a3;
 
 /*Description of additions:For this class we essentially implemented the AdventureGame class for a GUI format. We added the 
  * Instance variable needed such as a Player, an Adventure, and a start Room. We called player.go() to move and implemented 
